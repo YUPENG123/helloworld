@@ -38,4 +38,8 @@ jobs:
            gcc hello.c -o hello
            ls
            ./hello
-       
+    - uses: actions/download-artifact@v3
+      with:
+        name: my-artifact    
+    - name: Display structure of downloaded files
+      run: ls -R   
