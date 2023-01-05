@@ -20,3 +20,8 @@ jobs:
       run: pwd
     - name: ls 
       run: ls 
+    - name: gcc
+      run: gcc hello.c
+    - name: run
+      run: ./hello.exe
+      
