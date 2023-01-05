@@ -23,7 +23,7 @@ jobs:
     - name: ls 
       run: ls 
     - name: gcc
-      run: gcc hello.c
+      run: gcc hello.c hello
     - name: ls 
       run: ls
     - name: run
