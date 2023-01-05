@@ -39,7 +39,7 @@ jobs:
            ls
            ./hello
     - uses: actions/download-artifact@v3
-      with:
-        name: helloworld   
+#      with:
+#        name: helloworld   
     - name: Display structure of downloaded files
       run: ls -R   
