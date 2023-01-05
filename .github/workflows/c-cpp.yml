@@ -40,6 +40,6 @@ jobs:
            ./hello
     - uses: actions/download-artifact@v3
       with:
-        name: my-artifact    
+        name: hello    
     - name: Display structure of downloaded files
       run: ls -R   
