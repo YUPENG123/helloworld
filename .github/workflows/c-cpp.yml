@@ -22,10 +22,9 @@ jobs:
       run: pwd
     - name: ls 
       run: ls 
- #   - name: gcc
- #     run: gcc hello.c hello
+# gcc
     - name: gcc
-      run: gcc hello.c hello
+      run: gcc hello.c -o hello
     - name: ls 
       run: ls
     - name: run
