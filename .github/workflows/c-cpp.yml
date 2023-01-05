@@ -22,6 +22,8 @@ jobs:
       run: ls 
     - name: gcc
       run: gcc hello.c
+    - name: ls 
+      run: ls
     - name: run
-      run: ./hello.exe
+      run: ./hello
       
