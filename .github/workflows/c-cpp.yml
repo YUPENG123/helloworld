@@ -6,6 +6,7 @@ jobs:
     name: My Job
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v3
     - name: Print a greeting
       env:
         MY_VAR: Hi there! My name is
@@ -18,4 +19,3 @@ jobs:
       run: pwd
     - name: ls 
       run: ls 
-    - uses: actions/checkout@v3
