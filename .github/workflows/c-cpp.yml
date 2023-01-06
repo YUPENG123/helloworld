@@ -23,10 +23,10 @@ jobs:
     - name: build project
       run: |
            pwd
-           ls
-           gcc hello.c -o hello
-           ls
-           ./hello
+           ls -R
+           gcc hello.c -o ./out/hello
+           ls -R
+           ./out/hello
     - uses: actions/download-artifact@v3
 #      with:
 #        name: helloworld   
