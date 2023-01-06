@@ -21,7 +21,10 @@ jobs:
 #    - name: First interaction
 #      uses: actions/first-interaction@v1.1.1
     
-    - run: mkdir -p path/to/artifact
+    - run: |
+        mkdir -p path/to/artifact
+        mkdir -p out
+       
 
     - run: echo hello > path/to/artifact/world.txt
 
