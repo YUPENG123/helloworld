@@ -24,6 +24,7 @@ jobs:
       run: |
            pwd
            ls -R
+           mkdir out
            gcc hello.c -o ./out/hello
            ls -R
            ./out/hello
