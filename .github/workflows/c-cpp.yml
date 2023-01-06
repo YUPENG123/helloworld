@@ -28,11 +28,6 @@ jobs:
 
     - run: echo hello > path/to/artifact/world.txt
 
-    - uses: actions/upload-artifact@v3
-      with:
-        name: my-artifact
-        path: path/to/artifact/world.txt
-    
     - name: build project
       run: |
            pwd
@@ -40,6 +35,19 @@ jobs:
            gcc hello.c -o ./out/hello
            ls -R
            ./out/hello
+
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: path/to/artifact/world.txt
+    
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact1
+        path: out/hello
+
     - uses: actions/download-artifact@v3
 #      with:
 #        name: helloworld   
