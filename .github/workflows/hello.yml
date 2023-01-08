@@ -16,9 +16,8 @@ jobs:
         node -v
         npm -v
         node hello.js
-        node
-        global.console
-    
+        node global.console
+        
     - uses: YUPENG123/hello-world-javascript-action@main
       with:
         who-to-greet: 'Mona the Octocat'
