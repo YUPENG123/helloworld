@@ -13,6 +13,7 @@ jobs:
       run : |
         node -v
         npm -v
+        node hello.js
     
     - uses: YUPENG123/hello-world-javascript-action@main
       with:
