@@ -7,7 +7,9 @@ jobs:
   my-job1:
     name: My Job1
     runs-on: ubuntu-latest
-    steps:       
+    steps: 
+    
+    - name : action/chechoutv3
       
     - name: run
       run : |
