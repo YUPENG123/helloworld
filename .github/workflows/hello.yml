@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     
-    - name : action/chechoutv3
+    - uses : action/chechout@v3
       
     - name: run
       run : |
