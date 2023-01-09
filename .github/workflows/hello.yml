@@ -1,8 +1,9 @@
 # 这是我的yml文件
 
 name: Greeting from Mona1
-on: push
-
+on: 
+   push:
+   workflow_dispatch:
 jobs:
   my-job1:
     name: My Job1
