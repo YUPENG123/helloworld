@@ -3,7 +3,7 @@
 // #include <windows.h>
 
 int main(){
-    printf("Hello world!!!");
+    printf("Hello world!!!/n");
     system("sleep 3");
     return 0;
 }
