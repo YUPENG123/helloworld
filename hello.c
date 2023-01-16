@@ -2,10 +2,10 @@
 #include <stdlib.h>
 // #include <windows.h>
 
-int main(){
+int main()
+{
     printf("Hello world!!!\n");
-    //system("sleep 3");
-    pause();
+    // system("sleep 3");
+    //pause();
     return 0;
 }
-
