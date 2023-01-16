@@ -4,7 +4,8 @@
 
 int main(){
     printf("Hello world!!!\n");
-    system("sleep 3");
+    //system("sleep 3");
+    pause();
     return 0;
 }
 
